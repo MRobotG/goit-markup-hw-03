@@ -1,0 +1,1507 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.webstudio{
+
+/* Estudio Web */
+
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+
+.estudio{
+
+/* Estudio */
+
+
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+    
+}
+
+.portafolio{
+
+/* Portafolio */
+
+
+position: absolute;
+width: 65px;
+height: 16px;
+left: 552px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+
+
+
+}
+
+.contacto{
+/* Contacto */
+
+
+position: absolute;
+width: 59px;
+height: 16px;
+left: 679px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+
+
+}
+
+.infodevstudio{
+
+/* info@devstudio.com */
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+
+.number{
+/* +52 55 5529 6000 */
+
+
+position: absolute;
+width: 118px;
+height: 16px;
+left: 1263px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+
+.todo{
+
+    /* Todo */
+
+position: absolute;
+width: 38px;
+height: 26px;
+left: calc(50% - 38px/2 - 269px);
+top: calc(50% - 26px/2 - 735px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.rec {
+
+/* Rectángulo 10 */
+
+position: relative;
+width: 73px;
+height: 38px;
+left: calc(50% - 73px/2 - 268.5px);
+top: calc(50% - 38px/2 - 735px);
+
+background: #FFFFFF;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+
+.sitios{
+/* Sitios-web */
+
+position: relative;
+width: 80px;
+height: 26px;
+left: calc(50% - 80px/2 - 160px);
+top: calc(50% - 26px/2 - 735px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.aplicaciones{
+
+/* Aplicaciones */
+
+
+position: relative;
+width: 98px;
+height: 26px;
+left: calc(50% - 98px/2 - 16px);
+top: calc(50% - 26px/2 - 735px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+/* Rectángulo 10 */
+
+
+position: relative;
+width: 145px;
+height: 38px;
+background: #F5F4FA;
+border-radius: 4px;
+
+}
+
+.diseño{
+
+/* Diseño */
+
+
+position: relative;
+width: 52px;
+height: 26px;
+left: calc(50% - 52px/2 + 116px);
+top: calc(50% - 26px/2 - 735px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+position: relative;
+width: 103px;
+height: 38px;
+background: #F5F4FA;
+border-radius: 4px;
+
+}
+
+.marketing{
+
+/* Marketing */
+
+position:relative;
+width: 77px;
+height: 26px;
+left: calc(50% - 77px/2 + 241.5px);
+top: calc(50% - 26px/2 - 735px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+/* Rectángulo 10 */
+
+position: relative;
+width: 130px;
+height: 38px;
+left: calc(50% - 130px/2 + 241px);
+top: calc(50% - 38px/2 - 735px);
+
+background: #F5F4FA;
+border-radius: 4px;
+
+}
+.size{
+/* imagen */
+
+position: absolute;
+width: 370px;
+height: 294px;
+left: calc(50% - 370px/2 - 400px);
+top: calc(50% - 294px/2 - 519px);
+
+background: url(.jpg);
+}
+
+.img{
+/* contenedor bg */
+
+box-sizing: border-box;
+
+position: relative,;
+width: 370px;
+height: 404px;
+
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.img2{
+    /* contenedor bg */
+
+
+box-sizing: border-box;
+
+position: relative;
+width: 370px;
+height: 404px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+
+}
+
+
+
+.tecnoduck {
+
+/* Tecnoduck */
+
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+.sitioweb{
+
+/* Sitio-web */
+
+position: relative;
+width: 322px;
+height: 30px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+ 
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+.nuevaorleands{
+
+/* Póster de Nueva Orleans vs Estrella Dorada */
+
+
+position: relative;
+width: 322px;
+height: 72px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+
+/* or 200% */
+
+letter-spacing: 0.06em;
+color: #212121;
+
+}
+
+.restaurantsea {
+
+/* Restaurante de Mariscos */
+
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+
+.aplicaciones2{
+/* Aplicaciones */
+
+position: relative;
+width: 322px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.prime{
+/* Proyecto Prime */
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+
+.marketing0
+{
+/* Marketing */
+
+
+position: relative;
+width: 322px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
+.proyectoc{
+
+    /* Proyecto Cajas */
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+.app{
+/* Aplicaciones */
+
+position: relative;
+width: 322px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
+.inspiration{
+/* La inspiración no tiene límites */
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.sitio{
+    /* Sitio-web */
+
+
+position: relative;
+width: 322px;
+height: 30px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.edition{
+/* Edición Limitada */
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+
+.design{
+/* Diseño */
+
+position: relative;
+width: 322px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.lab{
+/* Proyecto LAB */
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+
+.mark{
+/* Marketing */
+
+position: relative;
+width: 322px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
+.bussines{
+/* Negocio en Crecimiento */
+
+position: relative;
+width: 322px;
+height: 36px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+.growup{
+/* Aplicaciones */
+
+position: relative;
+width: 322px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575; 
+}
+
+.add
+{
+/* Calz. Ticomán 500, Ciudad de México, CDMX, México */
+
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 4158px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+.examplel{
+/* info@example.com */
+
+
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 4158px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+.find{
+/* ENCUENTRENOS EN */
+
+/* ENCUENTRENOS EN */
+
+
+position: absolute;
+width: 135px;
+height: 16px;
+left: 516px;
+top: 1703px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #0a0000;
+
+
+}
+
+footer {
+/* Pie de página bg */
+
+
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2158px;
+
+background: #2F303A;
+
+}
+
+
+.index{
+
+    /* Estudio */
+
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+
+.port{
+ /* Portafolio */
+
+position: absolute;
+width: 65px;
+height: 16px;
+left: 552px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.solution{
+/* SOLUCIONES EFICACES PARA SU NEGOCIO */
+
+position: absolute;
+width: 696px;
+height: 120px;
+left: 448px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.bk{ 
+position: relative;
+width: 1600px;
+height: 600px;
+left: -4px;
+top: 80px;
+background: #2F303A;
+}
+
+.detail{
+/* ATENCIÓN A LOS DETALLES */
+position: absolute;
+width: 270px;
+height: 16px;
+left: 215px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.puntuality{
+    /* PUNTUALIDAD */
+
+position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.rec1{
+
+/* Rectángulo 10 */
+
+
+position: absolute;
+width: 128px;
+height: 38px;
+left: calc(50% - 128px/2 - 160px);
+top: calc(50% - 38px/2 - 735px);
+
+background: #F5F4FA;
+border-radius: 4px;
+}
+.p1 {
+    /* Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida. */
+
+position: absolute;
+width: 270px;
+height: 75px;
+left: 215px;
+top: 801px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.titles{
+    /* PUNTUALIDAD */
+
+
+position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.p3{
+position: absolute;
+width: 270px;
+height: 96px;
+left: 515px;
+top: 801px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em
+}
+
+.planification{
+    /* PLANIFICACIÓN */
+
+position: absolute;
+width: 270px;
+height: 16px;
+left: 815px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.p4{
+    
+position: absolute;
+width: 270px;
+height: 75px;
+left: 815px;
+top: 801px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
+.tecnology{
+position: absolute;
+width: 270px;
+height: 16px;
+left: 1115px;
+top: 775px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.p5{
+
+position: absolute;
+width: 270px;
+height: 75px;
+left: 1115px;
+top: 801px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.img3{
+    /* imagen */
+
+
+position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 215px;
+top: 1092.3px;
+
+background: url(.jpg);
+mix-blend-mode: normal;
+}
+
+.img4{
+    /* imagen */
+
+
+position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 618.42px;
+top: 1092.3px;
+
+background: url(.jpg);
+}
+
+.img5{
+/* imagen */
+
+position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 1015px;
+top: 1092px;
+
+background: url(.jpg);
+}
+
+.dedicated{
+    /* A qué nos dedicamos */
+
+
+position: absolute;
+width: 371.15px;
+height: 46.24px;
+left: 619.43px;
+top: 991px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.section2{
+    /* Sección bg */
+
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1510px;
+
+background: #F5F4FA;
+}
+
+.team{
+
+/* Nuestro Equipo */
+position: absolute;
+width: 263px;
+height: 42px;
+left: 669px;
+top: 1604px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.andres{
+ /* Andrés Cubo */
+
+position: absolute;
+width: 97px;
+height: 19px;
+left: 295px;
+top: 1986px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.product{
+/* Diseñador de Productos */
+
+
+position: absolute;
+width: 181px;
+height: 19px;
+left: 253px;
+top: 2015px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.img6{
+/* imagen */
+
+
+position: absolute;
+width: 270px;
+height: 260px;
+left: 208px;
+top: 1696px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+
+
+}
+
+.target{
+/* tarjeta bg */
+
+
+position: absolute;
+width: 270px;
+height: 368px;
+left: 208px;
+top: 1696px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.img7{
+ /* imagen */
+
+
+position: absolute;
+width: 270px;
+height: 260px;
+left: 515px;
+top: 1696px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.target2{
+    /* tarjeta bg */
+
+
+position: absolute;
+width: 270px;
+height: 368px;
+left: 515px;
+top: 1696px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.karla{
+    /* Carla Palacios */
+
+position: absolute;
+width: 109px;
+height: 19px;
+left: 596px;
+top: 1986px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.frontend{
+/* Desarrolladora Frontend */
+
+position: absolute;
+width: 183px;
+height: 19px;
+left: 559px;
+top: 2015px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.img8{
+
+/* imagen */
+
+position: absolute;
+width: 270px;
+height: 260px;
+left: 822px;
+top: 1696px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.mario{/* Mario Dorado */
+
+
+    position: absolute;
+    width: 103px;
+    height: 19px;
+    left: 906px;
+    top: 1986px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    }
+
+    .marker{
+/* Marketing */
+
+position: absolute;
+width: 76px;
+height: 19px;
+left: 919px;
+top: 2015px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.img9{
+    position: absolute;
+width: 270px;
+height: 260px;
+left: 1115px;
+top: 1696px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.pablo{
+    /* Pablo Mijangos */
+
+
+position: absolute;
+width: 118px;
+height: 19px;
+left: 1191px;
+top: 1986px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.iu{/* Diseñador IU */
+
+
+    position: absolute;
+    width: 97px;
+    height: 19px;
+    left: 1202px;
+    top: 2015px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    }
+    .our{
+/* Solicite nuestro servicio */
+
+
+width: 197px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+
+.frame{
+/* Frame 1 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+
+position: absolute;
+width: 261px;
+height: 50px;
+left: 666px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.frame .frame:hover
+    {color:-moz-only-whitespace;
+    }
+
+.webstudio2{
+/* Estudio Web */
+
+
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2218px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.number2{
+/* +52 55 5529 6000 */
+
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 4158px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+a {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
