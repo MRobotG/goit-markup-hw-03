@@ -5,89 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    
+
+
     
   </head>
     
   <body>
   <!-- Page header -->
-      <header class="container">
+      <header class="header">
       <!-- The logo is always a link -->
           <a class="webstudio" href="#">Web Studio</a>
           <!--Links to other pages or sections of the current page -->
-          <nav>
+          <nav >
               <ul>
-                  <li><a class="index" href="./index.html">Estudio</a></li>
-                  <li><a class="port" href="./portafolio.html">Portafolio</a></li>
-                  <li><a class="contacto" href="#">Contacto</a></li>
-                  <!-- tel: + 5555296088 y  mailto:devstudio.com -->
-                  <li><a class="infodevstudio" href="mailto:info@devsudio.com">Info@example.com</a></li>
-                  <li><a class="number" href="tel:+380961111111">+52 55 5529 6000</a></li>
+                  <li><a href="./index.html" class="header-estudio">Estudio</a></li>
+                  <li><a href="./portafolio.html" class="header-pcitel">Portafolio</a></li>
+                  <li><a href="#" class="header-pcitel">Contacto</a></li>
+                  <li><a href="mailto:info@devsudio.com" class="header-estudio">Info@example.com</a></li>
+                  <li><a href="tel:+380961111111" class="header-pcitel">+52 55 5529 6000</a></li>
               </ul>
           </nav>
       </header>
 
-    <main class="container">
-        <section class="bk">
-            <h1  class="solution">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <button class="our frame" value="Solicite nuestro servicio">Solicite nuestro servicio.</button>
+    <main class="firtsbutton">
+        <section class="bgsectionone">
+            <h1  class="section-one">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+            <button class="frame1 " value="Solicite nuestro servicio">Solicite nuestro servicio.</button>
         </section>
 
-        <section class="box">
+        <section><br><br><br><br>
             <ul>
-                <li>
-                  <h4 class="detail">ATENCION A LOS DETALLES</h4>
-                  <p class="p1">Nos adentramos en todos los detalles y procesos de su negocio, para asi desarrollar una solucion a su medida</p></li>
-                <li><h4 class="detail">PUNTUALIDAD</h4>
-                    <p class="p3">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempò y respetar los plazos acordados.</p></li>
-                <li><h4 class="detail">PLANIFICACION</h4>
-                    <p class="p4">Usted podra observar y participar en cada fase del desarrollo y aplicacion de soluciones</p></li>
-                <li><h4 class="detail">TECNOLOGIA MODERNA</h4>
-                    <p class="p5">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales</p></li>
+                <li><h4 class="sectiontwo">ATENCION A LOS DETALLES</h4>
+                  <p class="para">Nos adentramos en todos los detalles y procesos de su negocio, para asi desarrollar una solucion a su medida</p></li>
+                <li><h4 class="sectiontwo">PUNTUALIDAD</h4>
+                    <p class="para">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempò y respetar los plazos acordados.</p></li>
+                <li><h4 class="sectiontwo">PLANIFICACION</h4>
+                    <p class="para">Usted podra observar y participar en cada fase del desarrollo y aplicacion de soluciones</p></li>
+                <li><h4 class="sectiontwo">TECNOLOGIA MODERNA</h4>
+                    <p class="para">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales</p></li>
             </ul>
         </section>
 
-        <section class="box">
-            <h2 class="dedicated">A que nos dedicamos</h2>
+        <section>
+            <h2 class="sectionthree">A que nos dedicamos</h2>
                 <ul>
                     <li>
-                      <img src="/goit-markup-hw-01/images/firts.jpeg" alt="Primera Imagen" width="240" class="img3">
+                      <img src="/goit-markup-hw-01/images/firts.jpeg" alt="Primera Imagen" width="240" class="dedicated-main">
                     </li>
                     <li>
-                      <img src="/goit-markup-hw-01/images/second.jpeg" alt="Segunda Imagen" width="240" class="img4">
+                      <img src="/goit-markup-hw-01/images/second.jpeg" alt="Segunda Imagen" width="240" class="dedicated-main">
                     </li>
                     <li>
-                      <img src="/goit-markup-hw-01/images/third.jpeg" alt="Tercera Imagen" width="240" class="img5">
+                      <img src="/goit-markup-hw-01/images/third.jpeg" alt="Tercera Imagen" width="240" class="dedicated-main">
                     </li>    
                 </ul>
         </section>
 
-        <section class="section2 cards-comtainer">
+        <section class="container_our_team">
           <h2 class="team">Nuestro Equipo</h2>
-            <ul class="card">
-              <li>
-                <img src="/goit-markup-hw-01/images/fourth.jpeg" alt="Pedro" width="200" class="img6">
-                <h3 class="andres card">Andres Cubo</h3>
-                <p class="product">Diseñador de Producto</p>
+            <ul>
+              <li class="target">
+                <img src="/goit-markup-hw-01/images/fourth.jpeg" alt="Pedro" width="200" class="img1">
+                <h3 class="titlesectionthree">Andres Cubo</h3>
+                <p class="titlesectionthree">Diseñador de Producto</p>
               </li>
-              <li>
-                <img src="/goit-markup-hw-01/images/fifth.jpeg" alt="Carla" width="200" class="img7">
-                <h3 class="karla">Carla Palacios</h3>
-                <p class="frontend">Desarrolladora Frontend</p>
+              <li class="target">
+                <img src="/goit-markup-hw-01/images/fifth.jpeg" alt="Carla" width="200" class="img2">
+                
               </li>
-              <li>
-                <img src="/goit-markup-hw-01/images/sixth.jpeg" alt="Mario" width="200" class="img8">
-                <h3 class="mario">Mario Dorado</h3>
-                <p class="marker">Marketing</p>
+              <li class="target">
+                <img src="/goit-markup-hw-01/images/sixth.jpeg" alt="Mario" width="200" class="img3">
+                <h3 class="titlesectionthree">Mario Dorado</h3>
+                <p class="titlesectionthree">Marketing</p>
               </li>
-              <li>
-                <img src="/goit-markup-hw-01/images/seventh.jpeg" alt="Pablo" width="200" class="img9">
-                <h3 class="pablo">Pablo Mijangos</h3>
-                <p class="iu">Diseñador IU</p>
+              <li class="target">
+                <img src="/goit-markup-hw-01/images/seventh.jpeg" alt="Pablo" width="200" class="img4">
+                <h3 class="titlesectionthree">Pablo Mijangos</h3>
+                <p class="titlesectionthree">Diseñador IU</p>
               </li>
             </ul>
         </section>
@@ -102,6 +100,9 @@
             <li> <a class="examplel" href="mailto:info@devsudio.com">Info@example.com</a></li>
             <li> <a class="number2" href="tel:+380961111111">+52 55 5529 6000</a></li>
           </ul>
+
+          <h3 class="titlesectionthree">Carla Palacios</h3>
+                <p class="titlesectionthree">Desarrolladora Frontend</p>
       </address> 
   </footer>     
 </body>        
