@@ -13,11 +13,10 @@ margin: 0;
 .contenedor-def{
 display: flex;
 justify-content: space-around;
-flex-wrap: wrap;
 height: 70px;
 width: auto;
 box-sizing: border-box;
-background-color: white;    
+    
 /*width: 90%;
 margin: auto;*/
    
@@ -25,7 +24,7 @@ margin: auto;*/
 
 .contenedor-def1{
   display: flex;
-  justify-content:space-between
+  justify-content:left;
 }
     
 .inline{
@@ -39,13 +38,15 @@ text-align: right;
 letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
-margin-right: 93px;
 }
 
 .contenedor-def2{
   display: flex;
   justify-content:left;
 }
+
+
+
 .header-estudio1{
 text-decoration: none;
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -57,31 +58,6 @@ text-decoration: none;
 letter-spacing: 0.02em;
 color: black;
 }
-
-.header-estudio1{
-  text-decoration: none;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  color: black;
-  }
-  
-.header-estudio2{
-  text-decoration: none;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  color: #2196F3;
-}
-
       
 .header-pcitel1{
 /* Portafolio */
@@ -93,7 +69,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: #212121;
-margin-right: 50px;
 }
     
 ul {
@@ -122,7 +97,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #2196F3;
 text-decoration: none;
-margin-right: 50px;
 }
     
 .header-pcitel4{
@@ -135,22 +109,19 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: #757575;
-margin-right: 50px;
-
 }
 
-.section1{
+.section{
 
   /* Bg */
   background: #2F303A;
-  display: grid;
-  justify-content: center;
-  width: 1000;
-  height: 1000;
-  margin: -7px;
-  padding: 256px;
+    display: grid;
+    justify-content: center;
+    width: 1000;
+    height: 1000;
+    margin: 6px;
+    padding: 323px
 }
-
 
   .fontf{
     font-style: normal;
@@ -164,30 +135,11 @@ margin-right: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     list-style: none;
-    margin: -261px;
-    padding: 54px;
-    }
+    margin: -250px;
+    padding: 54px;  }
 
-    
-
-.fontf1{
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  text-decoration: none;
-  list-style: none;
-  margin: -261px;
-  padding: 150px;
-}  
-
-.fonts{
-  padding: 10px 32px;
+  .fonts{
+   padding: 10px 32px;
     gap: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -206,70 +158,94 @@ margin-right: 50px;
     text-align: center;
     letter-spacing: normal;
     color: #FFFFFF;
-  
-}
-
+  }  
+ 
 .contenedor{
+position: absolute;
 display: flex;
-justify-content: center;
 text-decoration: none;
 list-style: none;
-margin: 50px;
-padding: -100px;
 }
        
 .detalles{
+position: absolute;
+width: 270px;
+height: 16px;
+left: 215px;
+top: 775px;
 text-decoration: none;
 }
         
 .p1{
+position: absolute;
+width: 270px;
+height: 75px;
+left: 215px;
+top: 801px;
 text-decoration: none;
-justify-content: center;
-display: block;
 }
         
 .puntualidad{
-  text-decoration: none;
-  justify-content: center;
-  display: block;
+position: absolute;
+width: 270px;
+height: 16px;
+left: 515px;
+top: 775px;
 }
         
 .p2{
-  text-decoration: none;
-  justify-content: center;
-  display: block;
+position: absolute;
+width: 270px;
+height: 96px;
+left: 515px;
+top: 801px;
 }
         
 .planificacion{
-  text-decoration: none;
-  justify-content: center;
-  display: block;
+position: absolute;
+width: 270px;
+height: 16px;
+left: 815px;
+top: 775px;
 }
 
 .p3{
-  text-decoration: none;
-  justify-content: center;
-  display: block;
+position: absolute;
+width: 270px;
+height: 75px;
+left: 815px;
+top: 801px;
 }
 
 .moderna{
-  text-decoration: none;
-  justify-content: center;
-  display: block;
+position: absolute;
+width: 270px;
+height: 16px;
+left: 1115px;
+top: 775px;
 }
 
 .p4{
-  text-decoration: none;
-  justify-content: center;
-  display: block;
+position: absolute;
+width: 270px;
+height: 75px;
+left: 1115px;
+top: 801px;
 }
 
 .flex-container{
+position: absolute;
 display: flex;
 flex-direction:row;
  flex-wrap: wrap;
 list-style: none;
 justify-content:flex end;
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1510px;
+
 background: #F5F4FA;
          
 }
@@ -282,7 +258,11 @@ justify-content:center;
             
 .align{
 text-align: center;
-justify-content: center;
+position: absolute;
+width: 263px;
+height: 42px;
+left: 669px;
+top: 04px;
 }
             
             
@@ -327,24 +307,53 @@ align-self: center;
 display: flex;
 text-decoration: none;
 list-style: none;
-justify-content:space-between;
-margin: 29px;
 }
 
 .img1{
-  justify-content: center;
+  position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 215px;
+top: 1092.3px;
+margin: 30px;
+padding: 30px;
+display: inline;
+
+background: url(.jpg);
+mix-blend-mode: normal;
 }
 
 .img2{
-  justify-content: center;
+  position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 618.42px;
+top: 1092.3px;
+margin: 30px;
+padding: 30px;
+background: url(.jpg);
 }
 
 .img3{
-  justify-content: center;
+  /* imagen */
+position: absolute;
+width: 373.16px;
+height: 323.7px;
+left: 1015px;
+top: 1092px;
+margin: 30px;
+padding: 30px;
+
+background: url(.jpg);
 }
 
 .maint{
   /* Nuestro Equipo */
+position: absolute;
+width: 363px; 
+height: 42px;
+left: 669px;
+top: 804px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -352,7 +361,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-margin: 126px;
+
 color: #212121;
 }
 
@@ -372,10 +381,23 @@ color: #212121;
 
 
 
- .bgcolorf{
-    display: flex;
+
+
+body{
+    list-style: none;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: contents;
+  }
+  
+  
+  .bgcolorf{
+    position: absolute;
+    width: 1600px;
+    height: 132px;
+    left: 0px;
+    top: 2169px;
     background: #2F303A;
-    justify-content: left;
       
   }
   
@@ -388,10 +410,15 @@ color: #212121;
     list-style: none;
     letter-spacing: 0.03em;
     color: #2196F3;
-    margin: 38px;
+    position: absolute;
+    width: auto;
+    height: 31px;
+    left: 204px;
+    top: 0px;
+    text-decoration: none;
+    margin: 10px;
     padding: 0;
-  justify-content: right;
-  text-decoration: none;
+
   }
   
   li{
@@ -401,6 +428,11 @@ color: #212121;
   
   .header-pcitel5{
   /* Сontactos */
+  position: relative;
+  width: 231px;
+  height: 21px;
+  left: 175px;
+  top: 34px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -418,6 +450,11 @@ color: #212121;
   
   .header-pcitel6{
   /* info@devstudio.com */
+  position: relative;
+      width: 231px;
+      height: 21px;
+      left: 176px;
+      top: 40px;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-style: normal;
       font-weight: 400;
@@ -433,6 +470,11 @@ color: #212121;
   
   .header-pcitel7{
     /* +52 55 5529 6000 */
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 212px;
+    top: 105px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -447,6 +489,11 @@ color: #212121;
 
     .header-pcitel9{
         /* Portafolio */
+        position: relative;
+        width: 65px;
+        height: 16px;
+        left: 505px;
+        top: 11px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -456,7 +503,8 @@ color: #212121;
         text-decoration: none;
         color: #2196F3;
     }
-    
+    }
+
     * {
         box-sizing: border-box;
       }
@@ -503,31 +551,26 @@ color: #212121;
 
         
 .container8 {
-display: flex;
-justify-content: space-between;
-max-width: 1200px;
-padding: 5px;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-background-color: transparent;
-text-align: left;
-letter-spacing: 0.03em;
-margin: 0px;
-padding: 0px;
-}
+    max-width: 1200px;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: transparent;
+    text-align: left;
+    letter-spacing: 0.03em;
+    margin: 0px;
+    padding: 0px;
+  }
   
   .todo_rec{
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-width: 73px;
-height: 38px;
-left: calc(50% - 73px/2 - 268.5px);
-top: calc(50% - 38px/2 - 735px);
+  position: relative;
+  width: 73px;
+  height: 38px;
+  left: calc(50% - 73px/2 - 268.5px);
+  top: calc(50% - 38px/2 - 735px);
   
   background: #2196F3;
   /* shadow-middle */
@@ -539,11 +582,18 @@ top: calc(50% - 38px/2 - 735px);
   
   .sitios_rec1{
    /* Sitios-web */
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 26px;
+  
+  position: relative;
+  width: 92px;
+  height: 38px;
+  left: calc(50% - 80px/2 - 160px);
+  top: calc(50% - 26px/2 - 735px);
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   /* identical to box height, or 162% */
   
   text-align: center;
@@ -557,6 +607,7 @@ top: calc(50% - 38px/2 - 735px);
     /* Aplicaciones */
   
   
+  position: relative;
   width: 106px;
   height: 38px;
   left: calc(50% - 98px/2 - 16px);
@@ -579,7 +630,7 @@ top: calc(50% - 38px/2 - 735px);
     /* Diseño */
   
   
-    
+    position: relative;
     width: 80px;
     height: 37px;
     left: calc(50% - 52px/2 + 116px);
@@ -599,7 +650,8 @@ top: calc(50% - 38px/2 - 735px);
   .marketing{
     /* Marketing */
   
-    width: 88px;
+  position: relative;
+  width: 88px;
   height: 35px;
   left: calc(50% - 77px/2 + 241.5px);
   top: calc(50% - 26px/2 - 735px);
@@ -622,6 +674,11 @@ top: calc(50% - 38px/2 - 735px);
     /* ENCUENTRENOS EN */
 
 
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 766px;
+    top: 23px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -638,7 +695,4 @@ top: calc(50% - 38px/2 - 735px);
     left: 0px;
     top: 2169px;
     background: #2F303A;
-  }
-
-      
   }
