@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -19,20 +19,25 @@
     <header class="container">
       <!--Links to other pages or sections of the current page -->
       <nav >
-          <ul style="list-style: none;" class="contenedor-def">
+        <ul style="list-style: none;" class="contenedor-def">
           <li><a class="inline" href="#">Web Studio</a></li>
           <li><a href="./index.html" class="header-estudio1">Estudio</a></li>
           <li><a href="./portafolio.html" class="header-pcitel1">Portafolio</a></li>
-          <li><a href="#" class="header-pcitel2">Contacto</a></li>
-          <li><a href="mailto:info@devsudio.com" class="header-pcitel3">Info@example.com</a></li>
-          <li><a href="tel:+380961111111" class="header-pcitel4">+52 55 5529 6000</a></li>
-          </ul>
+          <li><a href="#" class="header-pcitel1">Contacto</a></li>
+          <ul class="contenedor-def1">
+            <li><a href="mailto:info@devsudio.com" class="header-pcitel3">Info@example.com</a></li>
+            <li><a href="tel:+380961111111" class="header-pcitel4">+52 55 5529 6000</a></li>
+        </ul>
+        </ul>
+      
+
       </nav>
   </header>
 
   <main>
     <section class="section1">
-        <h1  class="fontf">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <h1 class="fontf">SOLUCIONES EFICACES</h1>
+        <h1 class="fontf1"> PARA SU NEGOCIO</h1>
         <button  class="fonts" value="Solicite nuestro servicio">Solicite nuestro servicio.</button>
     </section>
   </main>
@@ -72,46 +77,48 @@
       </ul>
     </section>
     
-    <section>
-      <ul class="dedicated-main">
-          <h2 class="maint">A que nos dedicamos</h2>
+    <h2 class="maint">A que nos dedicamos</h2>
+    <section class="dedicated-main">
+         
+      <ul ></ul>
           <li>
-            <img src="/images/firts.jpeg" alt="Primera Imagen" width="240" class="img1">
+            <img src="./images/firts.jpeg" alt="Primera Imagen"  class="img1">
           </li>
           <li>
-            <img src="/images/second.jpeg" alt="Segunda Imagen" width="240" class="img2">
+            <img src="./images/second.jpeg" alt="Segunda Imagen"  class="img2">
           </li>
           <li>
-            <img src="/images/third.jpeg" alt="Tercera Imagen" width="240" class="img3">
+            <img src="./images/third.jpeg" alt="Tercera Imagen"  class="img3">
           </li>    
       </ul>
-</section><br><br><br><br>
+</section>
 
 <section>
   
-<ul class="flex-container">
   <h2 class="align">Nuestro Equipo</h2>
+<ul class="flex-container">
+  
   <li class="card">
-      <img class="img " src="/images/fourth.jpeg" alt="Pedro" width="270">
+      <img class="img " src="./images/fourth.jpeg" alt="Pedro" width="270">
           <h3 class="img">Andres Cubo</h3>
               <p class="font img">Diseñador de Producto</p>
   </li>
 
 <li class="card">
-  <img class="img" src="/images/fifth.jpeg" alt="Carla" width="270">
+  <img class="img" src="./images/fifth.jpeg" alt="Carla" width="270">
       <h3 class="img">Carla Palacios</h3>
           <p class="font img">Diseñador de Producto</p>
 </li>
 
 <li class="card">
-  <img class="img" src="/images/sixth.jpeg" alt="Mario" width="270">
+  <img class="img" src="./images/sixth.jpeg" alt="Mario" width="270">
       <h3 class="img">Mario Dorado</h3>
           <p class=" img font">Marketing</p>
 </li>
 
 
 <li class="card">
-  <img class=" img" src="/images/seventh.jpeg" alt="Pablo" width="270">
+  <img class=" img" src="./images/seventh.jpeg" alt="Pablo" width="270">
       <h3 class="">Pablo Mijangos</h3>
           <p class="font">Diseñador IU</p>
 </section>
@@ -119,9 +126,10 @@
     </main>
 
    
+    
     <footer class="bgcolorf">
       <address>
-          <a class="wbstudio" href="#">Web Studio</a>
+        <a class="wbstudio" href="#">Web Studio</a> 
               <ul>
                     <li>
                       <a class="header-pcitel5" href="#">Calz. Ticomàn 500, Ciudad de Mèxico, CDXM, Mèxico</a></li>
