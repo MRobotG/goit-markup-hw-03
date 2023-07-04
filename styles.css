@@ -4,7 +4,7 @@
   background-color: white;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-between;
   align-items: end;
   padding: 25px;
 }
@@ -37,7 +37,7 @@ line-height: 16px;
 text-decoration: none;
 letter-spacing: 0.02em;
 color: black;
-margin: 50px;
+margin: 25px;
 }
 
 .container-item:nth-child(5){
@@ -432,10 +432,5 @@ left: 0px;
 top: 2169px;
 background: #2F303A;
 }
-
   
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 174c1129b86ffd3ef622ec89d5ae1ef9f356b750
+
