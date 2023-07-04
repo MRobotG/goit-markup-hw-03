@@ -143,6 +143,7 @@ margin: 40px;
   letter-spacing: 0.02em;
   color: black;
   margin: 25px;
+  text-align: inherit;
 }
 
 .bold{
